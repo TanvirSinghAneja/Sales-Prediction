@@ -6,7 +6,7 @@ import sklearn
 r=pickle.load(open('rfor.pkl','rb'))
 std=pickle.load(open('stdsc.pkl','rb'))
 
-st.title('Sales Forecasting')
+st.title('Sales Prediction')
 
 def input_feature():
   c1,c2,c3=st.columns([1,1,1])
