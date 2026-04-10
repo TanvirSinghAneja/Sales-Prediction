@@ -29,4 +29,4 @@ with c1:
   button=st.button('Predict Sales')
 with c2:
   if button is True:
-   st.subheader(f'Sales Prediction is = {round(pred,2)}')
+   st.subheader(f'Sales Prediction is = {round(pred[0],2)}')
